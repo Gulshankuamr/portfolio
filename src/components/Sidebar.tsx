@@ -9,6 +9,8 @@ const navItems = [
   { path: '/skills', icon: Code2, label: 'Skills' },
   { path: '/projects', icon: Briefcase, label: 'Projects' },
   { path: '/contact', icon: Mail, label: 'Contact' },
+  { path: '/resume', icon: Mail, label: 'Resume' },
+
 ];
 
 export default function Sidebar() {
@@ -35,7 +37,7 @@ export default function Sidebar() {
             />
             <h2 className="text-xl font-bold">Gulshan Kumar</h2>
             {/* <p className="text-gray-600">Frontend Developer</p> */}
-            <p className="section__text__p2">Learning MERN Stack Frontend Developer Intern (React.js)</p>
+            <p className="section__text__p2">MERN Stack Developer with Frontend Expertise | Next.js | AI & Emerging Tech Enthusiast</p>
           </div>
 
           <nav className="flex-1 px-4 pb-2">
